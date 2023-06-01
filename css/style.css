@@ -1,0 +1,95 @@
+/* 
+Projeto CRUD - PHP
+Programadora: Luana Vitoria Gomes da Silva
+Data:13/03/2023
+Versão: 1.0
+*/
+
+/* Link de importação do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;800&display=swap');
+
+/*Normalizando(Padronizando os ajustes para todos os navegadores*/
+*
+{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body
+{
+    background-color: #F2E8DF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imagem_principal img
+{
+    width: 50%;
+    display: flex;
+
+}
+
+body h1
+{
+    font-weight: 800;
+    text-align: center;
+    color: #86A69D;
+}
+
+body h3
+{
+    text-align: center;
+}
+
+body h4
+{
+    text-align: center;
+    color: #86A69D;
+}
+a
+{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+p
+{
+    font-weight: 300;
+    text-align: center;
+    color: #86A69D;
+}
+table
+{
+    width: 60%;
+    border-collapse: collapse;
+}
+
+table, th, td
+{
+    border: 1px solid;
+    border-color: #F28585;
+}
+
+th
+{
+    height: 25px;
+    background-color: #F28585;
+}
+
+td
+{
+    height: 50px;
+    text-align: center;
+}
+
+.formulario
+{
+    margin: 0 0 0 10%;
+    margin: 0 10%;
+    /* margin-left: 50px; */
+}
+
+.formulario input
+{
+    height: 20px;
+    width: 100%;
+}
